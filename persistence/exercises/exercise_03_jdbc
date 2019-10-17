@@ -1,0 +1,39 @@
+products
+order
+customer
+payments
+employees
+offices
+
+classicmodel.data.Product
+classicmodel.data.ProductLine
+classicmodel.data.Order
+classicmodel.data.OrderDetails
+classicmodel.data.Customer
+classicmodel.data.Payment
+classicmodel.data.Employee
+classicmodel.data.Office
+
+classicmodel.repo.ProductRepository
+classicmodel.repo.ProductLineRepository
+classicmodel.repo.OrderRepository
+classicmodel.repo.OrderDetailsRepository
+classicmodel.repo.CustomerRepository
+classicmodel.repo.PaymentRepository
+classicmodel.repo.EmployeeRepository
+classicmodel.repo.OfficeRepository
+
+Repository operations:
+
+- get all
+- get using pk
+- get using fks
+
+Hints:
+
+1) use jdbcshop maven projct
+2) create new packages for classicmodel
+3) create classicmodel domain objects
+4) create repositories/dtos
+5) implement mapping from tables to domain objects in dtos
+6) test dtos

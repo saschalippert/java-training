@@ -1,0 +1,38 @@
+products
+order
+customer
+payments
+employees
+offices
+
+classicmodel.data.Product
+classicmodel.data.ProductLine
+classicmodel.data.Order
+classicmodel.data.OrderDetails
+classicmodel.data.Customer
+classicmodel.data.Payment
+classicmodel.data.Employee
+classicmodel.data.Office
+
+classicmodel.repo.ProductRepository
+classicmodel.repo.ProductLineRepository
+classicmodel.repo.OrderRepository
+classicmodel.repo.OrderDetailsRepository
+classicmodel.repo.CustomerRepository
+classicmodel.repo.PaymentRepository
+classicmodel.repo.EmployeeRepository
+classicmodel.repo.OfficeRepository
+
+Hints:
+
+1) use jpashop maven projct
+2) create new packages for classicmodel
+4) create classicmodel data classes & jpa mapping
+4) update persistence.xml
+5) test until startup & hibernate validation works
+6) test using entitymanger find & persist & nagivation
+7) add repositories
+8) test repositories
+
+Composite keys for orderdetails & payments
+https://vladmihalcea.com/the-best-way-to-map-a-composite-primary-key-with-jpa-and-hibernate/

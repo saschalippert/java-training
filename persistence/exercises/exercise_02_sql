@@ -1,0 +1,27 @@
+-select, order, where
+1. select all entries from the employees table.
+2. select the firstname and lastname columns from the employees table.
+3. select the firstname and lastname columns from the employees table sort by lastname.
+4. create a report showing orders sorted by orderDate from newest to latest. show orderNumber, orderDate, shippedDate, customerNumber, and status.
+5. create a report showing the email and the first and last name of all sales representatives.
+6. create a report showing the first and last names of all customers who got a sales representative.
+7. create a report showing the first and last name of all employees whose last names start
+with a letter in the last half of the alphabet. sort by lastname in descending order.
+8. create a report showing the job title and the first and last name of all employees
+whose job title begins with "V".
+9. create a report showing the city, first and last name of all customers who are from
+Singapore or Madrid.
+10. create a report that shows the country, city, customer name, first and last name of all
+customers in Denmark or in any city in USA except NYC.
+11. create a report that shows the product code, buy price, buy price + 15%, msrp for all products with msrp geater than 200
+
+-group, aggregate
+12. find the total number of orders by customer number 128
+13. retrieve the number of employees in each city
+14. find the number of sales representatives in each office that contains at least 2 sales representatives. order by the number of employees.
+
+-join
+15. find the companies (the companyname) that placed orders in 2003
+16. create a report showing customer orders with customer name
+17. create a report showing the order id, the name of the company that placed the order, and the first and last name of the associated employee. only show orders placed after january 1, 2003 that shipped after they were required. sort by company name.
+18. create a report that shows the total quantity of products (from the orderdetails) ordered. only show records for products for which the quantity ordered is fewer than 200

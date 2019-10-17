@@ -1,0 +1,35 @@
+JAX-RS API
+Jersey REST framework
+
+1) https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/getting-started.html
+2) read getting started
+3) figure out maven dependencies
+4) add maven dependies to jpaclassic project
+5) implement & test "getting started" rest demo
+6) create rest ressource for any shop entity
+7) serve & test entity pk via GET operation
+8) add maven dependency of json parser/generator to project (eg https://github.com/google/gson)
+9) replace entity pk in get operation with shop entity serialized in json
+10) implement other operations/resources
+11) profit 
+
+
+Jersey Dependencies
+
+<dependency>
+    <groupId>org.glassfish.jersey.containers</groupId>
+    <artifactId>jersey-container-grizzly2-http</artifactId>
+    <version>2.29.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.glassfish.jersey.inject</groupId>
+    <artifactId>jersey-hk2</artifactId>
+    <version>2.29.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.glassfish.jersey.media</groupId>
+    <artifactId>jersey-media-json-binding</artifactId>
+    <version>2.29.1</version>
+</dependency>
