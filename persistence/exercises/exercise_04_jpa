@@ -27,7 +27,7 @@ Hints:
 
 1) use jpashop maven projct
 2) create new packages for classicmodel
-4) create classicmodel data classes & jpa mapping
+4) create classicmodel domain objects & jpa mapping
 4) update persistence.xml
 5) test until startup & hibernate validation works
 6) test using entitymanger find & persist & nagivation

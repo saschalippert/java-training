@@ -1,7 +1,0 @@
-1) download mysql archive
-2) unzip archive
-3) create data dir in unzipped archive
-4) cd to bin dir in cosole
-5) in bin dir run from console: mysqld --console --initialize-insecure
-6) to start the mysql server run from console: mysqld --console
-7) to start the mysql client run from console: mysql -u root
