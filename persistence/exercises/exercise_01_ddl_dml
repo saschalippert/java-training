@@ -1,0 +1,15 @@
+create shop datbase
+create shop tables
+
+account
+cart
+cart_item
+customer
+customer_address
+payment_method
+product
+
+test with shop insert statements
+
+insert new cusomer with address & payment method
+
