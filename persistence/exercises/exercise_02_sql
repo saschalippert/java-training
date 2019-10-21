@@ -24,4 +24,4 @@ customers in Denmark or in any city in USA except NYC.
 15. find the companies (the companyname) that placed orders in 2003
 16. create a report showing customer orders with customer name
 17. create a report showing the order id, the name of the company that placed the order, and the first and last name of the associated employee. only show orders placed after january 1, 2003 that shipped after they were required. sort by company name.
-18. create a report that shows the total quantity of products (from the orderdetails) ordered. only show records for products for which the quantity ordered is fewer than 200
+18. create a report that shows the total quantity of products (from the orderdetails) and product name ordered by quantity. only show records for products for which the quantity ordered is fewer than 900
